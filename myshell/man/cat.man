@@ -1,0 +1,11 @@
+CAT(1)                                                    User Commands                                                   CAT(1)
+
+
+
+NAME
+       cat - concatenate files and print on the standard output
+
+SYNOPSIS
+       cat  [FILE]...
+
+

@@ -1,0 +1,6 @@
+#ENV_PROMPT;
+user@myshell
+#ENV_LOG_FILE;
+HISTORY.log
+#ENV_PWD;
+/home/subhrendu/

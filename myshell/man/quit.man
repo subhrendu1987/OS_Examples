@@ -1,0 +1,10 @@
+QUIT(1)                                                     User Commands                                                    QUIT(1)
+
+
+
+NAME
+       quit - quits from shell
+
+SYNOPSIS
+       quit
+

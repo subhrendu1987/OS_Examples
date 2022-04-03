@@ -1,0 +1,12 @@
+CP(1)                                                     User Commands                                                    CP(1)
+
+
+
+NAME
+       cp - copy files and directories
+
+SYNOPSIS
+       cp SOURCE DEST
+
+DESCRIPTION
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.

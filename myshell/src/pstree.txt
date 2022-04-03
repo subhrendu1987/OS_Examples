@@ -1,0 +1,111 @@
+init-+-NetworkManager-+-dnsmasq
+     |                `-2*[{NetworkManager}]
+     |-accounts-daemon---{accounts-daemon}
+     |-acpid
+     |-amarok---20*[{amarok}]
+     |-at-spi-bus-laun-+-dbus-daemon
+     |                 `-3*[{at-spi-bus-laun}]
+     |-at-spi2-registr---{at-spi2-registr}
+     |-atd
+     |-avahi-daemon---avahi-daemon
+     |-bamfdaemon---2*[{bamfdaemon}]
+     |-bash---java---38*[{java}]
+     |-bluetoothd
+     |-chrome-sandbox---chrome-+-4*[chrome---3*[{chrome}]]
+     |                         `-nacl_helper_boo
+     |-chromium-browse---chromium-browse---2*[chromium-browse---3*[{chromium-browse}]]
+     |-colord---2*[{colord}]
+     |-console-kit-dae---64*[{console-kit-dae}]
+     |-cron
+     |-cupsd---dbus
+     |-3*[dbus-daemon]
+     |-2*[dbus-launch]
+     |-dconf-service---2*[{dconf-service}]
+     |-gconfd-2
+     |-geoclue-master
+     |-6*[getty]
+     |-gnome-keyring-d---5*[{gnome-keyring-d}]
+     |-gnome-terminal-+-bash---shell.out
+     |                |-bash---pstree
+     |                |-gnome-pty-helpe
+     |                `-3*[{gnome-terminal}]
+     |-goa-daemon---{goa-daemon}
+     |-gvfs-afc-volume---{gvfs-afc-volume}
+     |-gvfs-fuse-daemo---3*[{gvfs-fuse-daemo}]
+     |-gvfs-gdu-volume
+     |-gvfs-gphoto2-vo
+     |-gvfsd
+     |-gvfsd-burn
+     |-gvfsd-metadata
+     |-gvfsd-trash
+     |-hud-service---2*[{hud-service}]
+     |-indicator-appli---{indicator-appli}
+     |-indicator-datet---2*[{indicator-datet}]
+     |-indicator-messa---{indicator-messa}
+     |-indicator-print---2*[{indicator-print}]
+     |-indicator-sessi---2*[{indicator-sessi}]
+     |-indicator-sound---2*[{indicator-sound}]
+     |-irqbalance
+     |-kded4---2*[{kded4}]
+     |-kdeinit4-+-2*[kio_http]
+     |          `-klauncher
+     |-kglobalaccel---2*[{kglobalaccel}]
+     |-lightdm-+-Xorg
+     |         |-lightdm-+-gnome-session-+-bluetooth-apple---2*[{bluetooth-apple}]
+     |         |         |               |-chrome-+-chrome
+     |         |         |               |        |-chrome---4*[{chrome}]
+     |         |         |               |        `-27*[{chrome}]
+     |         |         |               |-chromium-browse-+-chromium-browse
+     |         |         |               |                 `-26*[{chromium-browse}]
+     |         |         |               |-compiz-+-sh---gtk-window-deco---2*[{gtk-window-deco}]
+     |         |         |               |        `-5*[{compiz}]
+     |         |         |               |-deja-dup-monito---2*[{deja-dup-monito}]
+     |         |         |               |-gdu-notificatio---2*[{gdu-notificatio}]
+     |         |         |               |-gnome-fallback----2*[{gnome-fallback-}]
+     |         |         |               |-gnome-screensav---2*[{gnome-screensav}]
+     |         |         |               |-gnome-settings--+-check_gl_textur
+     |         |         |               |                 |-syndaemon
+     |         |         |               |                 `-3*[{gnome-settings-}]
+     |         |         |               |-nautilus---2*[{nautilus}]
+     |         |         |               |-nm-applet---2*[{nm-applet}]
+     |         |         |               |-polkit-gnome-au---2*[{polkit-gnome-au}]
+     |         |         |               |-ssh-agent
+     |         |         |               |-telepathy-indic---2*[{telepathy-indic}]
+     |         |         |               |-update-notifier---2*[{update-notifier}]
+     |         |         |               |-zeitgeist-datah---{zeitgeist-datah}
+     |         |         |               `-3*[{gnome-session}]
+     |         |         `-{lightdm}
+     |         `-2*[{lightdm}]
+     |-mission-control---2*[{mission-control}]
+     |-modem-manager
+     |-mount.ntfs
+     |-4*[mount.ntfs-3g]
+     |-mousetweaks---2*[{mousetweaks}]
+     |-nmbd
+     |-notify-osd---2*[{notify-osd}]
+     |-polkitd---{polkitd}
+     |-pulseaudio-+-gconf-helper
+     |            `-3*[{pulseaudio}]
+     |-rsyslogd---3*[{rsyslogd}]
+     |-rtkit-daemon---2*[{rtkit-daemon}]
+     |-smbd---smbd
+     |-system-service-
+     |-ubuntu-geoip-pr
+     |-ubuntuone-syncd---3*[{ubuntuone-syncd}]
+     |-udevd---2*[udevd]
+     |-udisks-daemon-+-udisks-daemon
+     |               `-2*[{udisks-daemon}]
+     |-unity-applicati---2*[{unity-applicati}]
+     |-unity-files-dae---2*[{unity-files-dae}]
+     |-unity-lens-vide---{unity-lens-vide}
+     |-unity-music-dae---{unity-music-dae}
+     |-unity-musicstor---{unity-musicstor}
+     |-unity-panel-ser---2*[{unity-panel-ser}]
+     |-unity-scope-vid---2*[{unity-scope-vid}]
+     |-upowerd---2*[{upowerd}]
+     |-upstart-socket-
+     |-upstart-udev-br
+     |-whoopsie---{whoopsie}
+     |-zeitgeist-daemo---{zeitgeist-daemo}
+     `-zeitgeist-fts-+-cat
+                     `-{zeitgeist-fts}

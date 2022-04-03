@@ -1,0 +1,11 @@
+CD(1)                                                     User Commands                                                    CD(1)
+
+
+
+NAME
+       cd - changes current directory
+
+SYNOPSIS
+       cd DIRECTORY
+
+

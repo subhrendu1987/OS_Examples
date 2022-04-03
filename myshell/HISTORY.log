@@ -1,0 +1,37 @@
+./preFlowPush.out < input.csv
+./preFlowPush.out < input.csv
+./preFlowPush.out < input.csv
+./preFlowPush.out < input.csv
+quit
+./b.out < input.csv
+ls < input.txt 
+quit
+./b.out
+ls
+./b.out
+./ls.out
+./ls.out < a.txt
+ls.out > a.txt
+ls.out < a.txt
+ls.out < a.txt
+ls.out < a.txt
+./ls.out < a.txt
+clear
+history
+ls
+quit
+man history
+? > help.txt
+cat help.txt
+man help
+man quit
+man ls
+man clear
+clear
+quit
+create
+clear
+quit
+ls
+./ls.out
+help

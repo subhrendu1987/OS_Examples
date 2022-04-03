@@ -1,0 +1,11 @@
+RM(1)                                                     User Commands                                                    RM(1)
+
+
+
+NAME
+       rm - remove files
+
+SYNOPSIS
+       rm FILE...
+
+

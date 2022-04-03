@@ -1,0 +1,10 @@
+CLEAR(1)                                                     User Commands                                                    CLEAR(1)
+
+
+
+NAME
+       clear - clears the console
+
+SYNOPSIS
+       clear
+

@@ -1,0 +1,13 @@
+HELP(1)                                                     User Commands                                                    HELP(1)
+
+
+
+NAME
+       help - shows helps 
+
+SYNOPSIS
+       	help
+	help [COMMAND NAME]
+
+DESCRIPTION
+       Shows help for a particular command or entire command list.
